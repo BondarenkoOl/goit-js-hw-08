@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://BondarenkoOl.github.io/goit-js-hw-08",
+  "homepage": "https://BondarenkoOl.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08npm install @vimeo/player/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "simplelightbox": "^2.10.3"
   },
   "devDependencies": {
+    "@parcel/bundler-default": "^2.7.0",
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
